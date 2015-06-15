@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Super Tic Tac Toe</title>
+
+<script type="text/javascript">
+// https://www.youtube.com/watch?v=U7anheKJSaI
+
+var canvas, ctx;
+
+window.onload = function main(){
+
+	canvas = document.createElement("canvas");
+	canvas.width = canvas.height = 200;
+	ctx = canvas.getContext("2d");
+
+	document.body.appendChild(canvas);
+
+	init();
+	tick();
+}
+
+function init(){
+
+}
+
+function tick(){
+	window.requestAnimationFrame(tick);
+	update();
+	render();
+}
+
+function update () {
+	
+}
+function render () {
+	
+}
+
+</script>
+
+</head>
+<body>
+
+</body>
+</html>
